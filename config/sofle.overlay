@@ -1,0 +1,13 @@
+/*
+ * Wired split configuration for Sofle v2.1 with nice!nano v2
+ * 
+ * This enables wired communication between halves via TRRS cable
+ * instead of Bluetooth.
+ */
+
+/ {
+    wired_split {
+        compatible = "zmk,wired-split";
+        device = <&pro_micro_serial>;
+    };
+};
